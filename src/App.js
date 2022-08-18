@@ -8,7 +8,7 @@ import data from "./components/data";
 const App = () => {
 
   const cards = data.map((item) => {
-    
+
     return (
       <Card
         card={item.imageUrl}
@@ -26,7 +26,7 @@ const App = () => {
   return (
     <div>
       <Navbar />
-      <section className="container_1">{cards}</section>
+      <section className="container-1">{cards}</section>
     </div>
   );
 };
